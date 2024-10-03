@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantipur Intl. College</title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="login.css">
+    <!-- Poppins Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
+900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Font Awesome CDN Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- Favicon -->
+<link rel="shortcut icon" href="/media_src/college_logo.jfif" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-item-cont">
+            <div class="college-logo"></div>
+        </div>
+
+        <div class="nav-item-cont">
+            <a href="/about_page/about.html"><div class="nav-btn" id="about">About</div></a>
+            <a href="/courses_page/course.html"><div class="nav-btn" id="courses">Courses</div></a>
+            <a href="/scholarship_page/scholarship.html"><div class="nav-btn" id="scholarship">Scholarship</div></a>
+            <a href="/admission_page/admission.html"><div class="nav-btn" id="admission">Admission</div></a>
+        </div>
+        <div class="nav-item-cont">
+            <a href="/admission_page/admission.html"><button id="applyBtn">Apply Now</button></a>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    
+    <div class="sliding-nav">
+        <div class="cross-btn-cont">
+            <i class="fa-solid fa-x"></i>
+        </div>
+        <ul class="siliding-nav-item-list">
+           <a href="/contact_page/contact.html"><div class="sliding-nav-btn" id="contact">Contact Us</div></a>
+            <a href="/news_events_page/news.html"><div class="sliding-nav-btn" id="news">News & Events</div></a>
+            <a href="/life_page/life.html"><div class="sliding-nav-btn" id="news">Life at Kantipur Intl.</div></a>
+            <a href="/login_page/login.html"><div class="sliding-nav-btn">Login</div></a>
+            <a href="/scholarship_page/scholarship.html"><div class="sliding-nav-btn">Scholarship</div></a>
+
+            <div class="socials-cont">
+                <div class="icon-cont"><i class="fa-brands fa-instagram social-icon"></i></div>
+                <div class="icon-cont"><i class="fa-brands fa-facebook social-icon"></i></div>
+                <div class="icon-cont"><i class="fa-brands fa-whatsapp social-icon"></i></div>                
+            </div>
+        </ul>
+    </div>
+
+    <!-- Login Form -->
+    
+    <section class="wrapper">
+        <div class="container">
+            <div class="form-container login-slider">
+                <form action="">
+                    <div class="login-text">Login</div>
+    
+                    <div class="login-input-cont">
+                        <input type="text" name="" id="username" class="input-box" placeholder="Username">
+                        <input type="password" name="" id="password" class="input-box" placeholder="password">
+                    </div>
+    
+                    <div class="forgot-pw-cont">
+                        <a href=""><span class="forgot-text">Forgot Your Password ?</span></a>
+                    </div>
+    
+                    <div class="login-btn-cont">
+                        <button class="login-btn" id="loginBtn" type="submit">Login</button>
+                    </div>
+    
+                    <div class="signup-cont">
+                        <span class="text-left">Don't Have a Account?</span>
+                        <span class="text-right signup-link"> &nbsp;SignUp Now</span>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="signup-slider">
+                <form action="">
+                    <div class="signup-text">SignUp</div>
+    
+                    <div class="signup-input-cont">
+                        <input type="text" name="" id="userName-signup" class="signup-input-box" placeholder="Enter Your Username">
+                        <input type="email" name="" id="email-signup" class="signup-input-box" placeholder="Enter Your Email">
+                        <input type="password" name="" id="password-signup" class="user-input-box" placeholder="Enter Your Password">
+                    </div>
+    
+                    <div class="create-acc-cont">
+                        <button id="creteAccBtn" class="create-acc-btn" type="submit">Create Account</button>
+                    </div>
+    
+                    <div class="already-text-cont">
+                        Already Have a Account?<span class="login-link">Login Now</span>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="poster-container">
+                <div class="kantipur-text-cont">
+                    Kantipur Intl.
+                </div>
+                <div class="slogan-cont">
+                    Unleash Your Brilliance <br> at a Premier Institution.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="login.js"></script>
+    <script src="/utilities/navbar/navbar.js"></script>
+</body>
+</html>
